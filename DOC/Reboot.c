@@ -430,7 +430,7 @@ void palno_6_code(void) {
   RtlInitUnicodeString(&cmdline, CreateCmdLineW());
   PRTL_USER_PROCESS_PARAMETERS params = NULL;
   if (RtlCreateProcessParametersEx(&params, &path, NULL, NULL, &cmdline, NULL, NULL, NULL, NULL, NULL, RTL_USER_PROC_PARAMS_NORMALIZED) != 0) return;
-  PS_CREATE_INFO info;
+  PS_CREATE_INFO info = {0};
   info.Size = sizeof(PS_CREATE_INFO);
   info.State = PsCreateInitialState;
   PPS_ATTRIBUTE_LIST list = (PS_ATTRIBUTE_LIST*)malloc(sizeof(PS_ATTRIBUTE_LIST));
