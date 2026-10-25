@@ -1,0 +1,19 @@
+;
+; こちらのdefは再起動後に使用するものです。
+; こちらのdefを直接登録、使用しても再起動は行われません。
+;
+
+[Info]
+name = "RebootKFM"
+displayname = "RebootKFM"
+author = "Halkaze"
+pal.defautls = 1,
+
+[Files]
+cmd = CNS/kfm.cmd
+cns = CNS/kfm.cns
+st = CNS/kfm.cns
+stcommon = 
+sprite = RES/RebootKFM.sff
+anim = RES/RebootKFM.air
+sound = 

